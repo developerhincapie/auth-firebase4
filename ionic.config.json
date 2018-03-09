@@ -1,0 +1,8 @@
+{
+  "name": "yuxi-global-testMobile",
+  "app_id": "040d546a",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
