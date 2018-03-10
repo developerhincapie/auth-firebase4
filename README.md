@@ -1,3 +1,34 @@
+
+
+## App Preview
+All app preview screenshots were taken by running `ionic serve --lab` on a retina display.
+
+ - [Login Page](https://github.com/developerhincapie/yuxi-global-testMobile/blob/master/src/pages/login/login.html)
+
+  <img src="resources/screenshots/login.png" alt="Login">
+
+ - [Signup Page](https://github.com/developerhincapie/yuxi-global-testMobile/blob/master/src/pages/register-users/register-users.html)
+
+  <img src="resources/screenshots/register.png" alt="Register">
+  
+ - [Eyelash design Page](https://github.com/developerhincapie/yuxi-global-testMobile/blob/master/src/pages/home/home.html)
+
+  <img src="resources/screenshots/eyelash.png" alt="Eyelash">
+  
+   - [Taken pictuire Page](https://github.com/developerhincapie/yuxi-global-testMobile/blob/master/src/pages/profile/profile.html)
+
+     <img src="resources/screenshots/takenpicture.png" alt="Eyelash">
+  
+  -[Data Page](https://github.com/developerhincapie/yuxi-global-testMobile/blob/master/src/pages/posts/posts.html)
+
+  <img src="resources/screenshots/datapage.png" alt="Data">
+  
+  -[Detail Page](https://github.com/developerhincapie/yuxi-global-testMobile/blob/master/src/pages/posts/detail-posts/detail-posts.html)
+
+  <img src="resources/screenshots/detail.png" alt="Detail">
+
+- To see more images of the app, check out the [screenshots directory](https://github.com/developerhincapie/yuxi-global-testMobile/tree/master/resources/screenshots)!
+
 ## File Structure of App
 ```
 yuxi-global-testMobile/
