@@ -30,11 +30,15 @@ export class RegisterUsersPage {
     loadingPopup.present();
     this._accountProvider.newAccount(this.myFormRegister.value)
       .then(response => {
-        this.alertShow("Message", "Successful account creation.")
+        this.alertShow('Message', 'Successful account creation.')
           .then(() => this.navCtrl.setRoot('HomePage'));
       }).catch(error => {
         loadingPopup.dismiss();
-        this.alertShow("Message", "The user or password entered is incorrect.");
+        if (error.code == "auth/email-already-in-use") {
+          this.alertShow('Message', 'the user already exists, please try another one.');
+        } else {
+          this.alertShow('Message','At this time you can not register correctly, try again.');
+        }
       });
   }
 
@@ -43,7 +47,7 @@ export class RegisterUsersPage {
     const alert = this.alertCtrl.create({
       title: title,
       message: mss,
-      buttons: ["OK"]
+      buttons: ['OK']
     })
     return alert.present();
   }

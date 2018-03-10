@@ -36,7 +36,7 @@ export class LoginPage {
         });
       }).catch(error => {
         loadingPopup.dismiss().then(() => {
-          this.alertShow("Message", "The user or password entered is incorrect.");
+          this.alertShow('Message', 'The user or password entered is incorrect.');
         });
       });
   }
@@ -51,7 +51,7 @@ export class LoginPage {
     const alert = this.alertCtrl.create({
       title: title,
       message: mss,
-      buttons: ["OK"]
+      buttons: ['OK']
     })
     alert.present();
   }
