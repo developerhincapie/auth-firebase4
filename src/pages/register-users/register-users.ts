@@ -31,7 +31,7 @@ export class RegisterUsersPage {
     this._accountProvider.newAccount(this.myFormRegister.value)
       .then(response => {
         this.alertShow("Message", "Successful account creation.")
-          .then(() => this.navCtrl.push('HomePage'));
+          .then(() => this.navCtrl.setRoot('HomePage'));
       }).catch(error => {
         loadingPopup.dismiss();
         this.alertShow("Message", "The user or password entered is incorrect.");
