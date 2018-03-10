@@ -34,11 +34,7 @@ export class RegisterUsersPage {
           .then(() => this.navCtrl.setRoot('HomePage'));
       }).catch(error => {
         loadingPopup.dismiss();
-        if (error.code == "auth/email-already-in-use") {
-          this.alertShow('Message', 'the user already exists, please try another one.');
-        } else {
-          this.alertShow('Message','At this time you can not register correctly, try again.');
-        }
+        this.alertShow('Message', error.message);
       });
   }
 
