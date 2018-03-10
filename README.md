@@ -1,8 +1,6 @@
-#
-
- File Structure of App
- yuxi-global-testMobile/
-
+## File Structure of App
+```
+yuxi-global-testMobile/
 |-- resources/
 |    |    ├── android/
 |    |    |     ├── favicon.ico
@@ -84,3 +82,4 @@
 ├── tsconfig.json                       * Defines the root files and the compiler options
 ├── tslint.json                         * Defines the rules for the TypeScript linter
 ├── README.md                           * This file
+```
