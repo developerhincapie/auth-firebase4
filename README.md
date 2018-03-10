@@ -15,15 +15,15 @@ All app preview screenshots were taken by running `ionic serve --lab` on a retin
 
   <img src="resources/screenshots/eyelash.png" alt="Eyelash">
   
-   - [Taken pictuire Page](https://github.com/developerhincapie/yuxi-global-testMobile/blob/master/src/pages/profile/profile.html)
+ - [Taken pictuire Page](https://github.com/developerhincapie/yuxi-global-testMobile/blob/master/src/pages/profile/profile.html)
 
      <img src="resources/screenshots/takenpicture.png" alt="Eyelash">
   
-  -[Data Page](https://github.com/developerhincapie/yuxi-global-testMobile/blob/master/src/pages/posts/posts.html)
+ - [Data Page](https://github.com/developerhincapie/yuxi-global-testMobile/blob/master/src/pages/posts/posts.html)
 
   <img src="resources/screenshots/datapage.png" alt="Data">
   
-  -[Detail Page](https://github.com/developerhincapie/yuxi-global-testMobile/blob/master/src/pages/posts/detail-posts/detail-posts.html)
+ - [Detail Page](https://github.com/developerhincapie/yuxi-global-testMobile/blob/master/src/pages/posts/detail-posts/detail-posts.html)
 
   <img src="resources/screenshots/detail.png" alt="Detail">
 
