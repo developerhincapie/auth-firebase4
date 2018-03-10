@@ -10,7 +10,6 @@ import { ApiServicerovider } from '../../../providers/service-call/api-service';
 export class DetailPostsPage {
 
   itemDetail: any;
-  keys: any;
 
   constructor(
     public _apiServicerovider: ApiServicerovider,
@@ -26,7 +25,6 @@ export class DetailPostsPage {
       this._apiServicerovider.getDataxId(this.navParams.get('id'))
         .subscribe(response => {
           this.itemDetail = response;
-          this.keys = Object.keys(this.itemDetail);
         });
     }
   }
