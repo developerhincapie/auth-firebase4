@@ -60,6 +60,9 @@ yuxi-global-testMobile/
 |    |    |     └── Default@2x~iphone.png
 |    |    |     └── Default@2x~universal~anyany.png
 |    |    |     └── Default~iphone.png
+|    └── README.md
+|    └── icon.png
+|    └── splash.png
 |
 |-- src/
 |    |-- app/
