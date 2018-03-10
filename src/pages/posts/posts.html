@@ -1,0 +1,7 @@
+<ion-content>
+  <ion-list [virtualScroll]="items">
+    <ion-item *virtualItem="let item" text-wrap detail-push text-uppercase (click)="detailPush(item.id)">
+      {{ item.title }}
+    </ion-item>
+  </ion-list>
+</ion-content>

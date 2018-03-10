@@ -1,0 +1,19 @@
+<ion-header>
+    <ion-navbar color="primary">
+        <ion-title>
+            Detail post : {{itemDetail ? itemDetail.id : ''}}
+        </ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <ion-card>
+        <ion-card-header text-wrap>
+            Title: {{itemDetail ? itemDetail.title : ''}}
+        </ion-card-header>
+        <ion-card-content>
+            Body: {{itemDetail ? itemDetail.body : ''}}
+            <br> User ID: {{itemDetail ? itemDetail.userId : ''}}
+        </ion-card-content>
+    </ion-card>
+</ion-content>

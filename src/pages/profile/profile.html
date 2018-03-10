@@ -1,0 +1,11 @@
+<ion-content>
+  <ion-grid padding>
+    <ion-row>
+      <ion-col col-12>
+        <button ion-button full color="secondary" (click)="getPhoto()">Take a picture</button>
+        <img *ngIf="fileImage !== null" [src]="fileImage" alt="image">
+        <ion-label stacked text-center>{{message}}</ion-label>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

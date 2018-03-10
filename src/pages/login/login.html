@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>Login</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+  <ion-list>
+    <form [formGroup]="myFormLogin" (ngSubmit)="sendLogin()" novalidate>
+
+      <img src="assets/imgs/yuxiLogo.png">
+      <ion-item>
+        <ion-label floating>Email:</ion-label>
+        <ion-input formControlName="Email" type="email"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label floating>Password:</ion-label>
+        <ion-input formControlName="Password" type="password"></ion-input>
+      </ion-item>
+
+      <div padding>
+        <button type="submit" ion-button full color="secondary" [disabled]="myFormLogin.invalid">Login</button>
+        <button type="button" ion-button full color="secondary" (click)="createAccount()">Create the account</button>
+      </div>
+
+    </form>
+  </ion-list>
+</ion-content>

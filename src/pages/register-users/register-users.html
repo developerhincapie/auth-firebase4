@@ -1,0 +1,44 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>Signup</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+  <ion-list>
+    <form [formGroup]="myFormRegister" (ngSubmit)="sendRegister()" novalidate>
+
+      <ion-item>
+        <ion-label floating>Email *:</ion-label>
+        <ion-input formControlName="Email" type="email"></ion-input>
+      </ion-item>
+
+      <ion-item *ngIf="myFormRegister.get('Email').errors && myFormRegister.get('Email').dirty && myFormRegister.get('Email').value">
+        <p text-center *ngIf="myFormRegister.get('Email').hasError('pattern')">Invalid mail.</p>
+      </ion-item>
+
+
+      <div formGroupName="passwords">
+        <ion-item>
+          <ion-label floating>Password *:</ion-label>
+          <ion-input formControlName="Password" type="password"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label floating>Confirm your password *:</ion-label>
+          <ion-input formControlName="confirmPassword" type="password"></ion-input>
+        </ion-item>
+
+        <ion-item *ngIf="myFormRegister.get('passwords').errors && myFormRegister.get('passwords').dirty">
+          <p text-center *ngIf="myFormRegister.get('passwords').hasError('nomatch')">Passwords do not match.</p>
+        </ion-item>
+      </div>
+
+      <div padding>
+        <button type="submit" ion-button full  color="secondary" [disabled]="myFormRegister.invalid">Create Account</button>
+      </div>
+
+    </form>
+  </ion-list>
+</ion-content>
