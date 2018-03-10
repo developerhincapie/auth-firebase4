@@ -1,9 +1,29 @@
 ## File Structure of App
 ```
 yuxi-global-testMobile/
-|-- resources/
+|-- resources/ 
 |    |    ├── android/
-|    |    |     ├── favicon.ico
+|    |    |     ├── icon
+|    |    |     └── drawable-hdpi-icon.png
+|    |    |     └── drawable-ldpi-icon.png
+|    |    |     └── drawable-mdpi-icon.png
+|    |    |     └── drawable-xhdpi-icon.png
+|    |    |     └── drawable-xxhdpi-icon.png
+|    |    |     └── drawable-xxxhdpi-icon.png
+|    |    |     ├── splash
+|    |    |     └── drawable-land-hdpi-screen.png
+|    |    |     └── drawable-land-ldpi-screen.png
+|    |    |     └── drawable-land-mdpi-screen.png
+|    |    |     └── drawable-land-xhdpi-screen.png
+|    |    |     └── drawable-land-xxhdpi-screen.png
+|    |    |     └── drawable-land-xxxhdpi-screen.png
+|    |    |     └── drawable-port-hdpi-screen.png
+|    |    |     └── drawable-port-ldpi-screen.png
+|    |    |     └── drawable-port-mdpi-screen.png
+|    |    |     └── drawable-port-xhdpi-screen.png
+|    |    |     └── drawable-port-xxhdpi-screen.png
+|    |    |     └── drawable-port-xxxhdpi-screen.png
+
 |    |    ├── ios/
 |    |    |     ├── favicon.ico
 |    |    ├── README.md
@@ -74,6 +94,7 @@ yuxi-global-testMobile/
 |
 ├── .editorconfig                       * Defines coding styles between editors
 ├── .gitignore                          * git ignore file
+├── README.md                           * This file
 ├── android-debug.apk                   * apk android file
 ├── config.xml                          * Cordova configuration file
 ├── ionic.config.json                   * Ionic configuration file
@@ -81,5 +102,5 @@ yuxi-global-testMobile/
 ├── package.json                        * Defines our JavaScript dependencies
 ├── tsconfig.json                       * Defines the root files and the compiler options
 ├── tslint.json                         * Defines the rules for the TypeScript linter
-├── README.md                           * This file
+
 ```
