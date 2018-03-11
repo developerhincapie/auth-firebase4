@@ -169,3 +169,9 @@ yuxi-global-testMobile/
 ├── tslint.json                         * Defines the rules for the TypeScript linter
 
 ```
+
+## Additional Notes
+- [Environment Tools] 
+- This project was generated with Ionic version 3.19.1
+- Node version v8.9.1
+- NPM version  5.6.0 
