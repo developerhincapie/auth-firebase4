@@ -98,8 +98,9 @@ yuxi-global-testMobile/
 |-- src/
 |    |-- app/
 |    |    ├── app.component.ts
+|    |    └── app.html
 |    |    └── app.module.ts
-|    |    └── app.template.html
+|    |    └── app.scss
 |    |    └── main.ts
 |    |
 |    |-- assets/
@@ -118,7 +119,7 @@ yuxi-global-testMobile/
 │    │    │
 │    │    ├── login/                     * Login page
 │    │    │    └── login.html            * Login template
-│    │    │    └──login.module.ts        * LoginPageModule module
+│    │    │    └── login.module.ts        * LoginPageModule module
 │    │    │    └── login.scss            * LoginPage stylesheet
 │    │    │    └── login.ts              * LoginPage code
 │    │    │
