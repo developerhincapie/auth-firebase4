@@ -171,8 +171,7 @@ yuxi-global-testMobile/
 ```
 
 ## Additional Notes
-```
-├── Environment Tools
-|   ├── This project was generated with Ionic version 3.19.1
-|   ├── Node version v8.9.1
-|   ├── NPM version  5.6.0 
+- This project was generated with Ionic version 3.19.1
+- Node version v8.9.1
+- NPM version  5.6.0 
+
